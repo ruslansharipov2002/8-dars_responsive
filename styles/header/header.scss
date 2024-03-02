@@ -1,0 +1,60 @@
+@import url(./nav/nav.css);
+
+.hero {
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 244px;
+  height: 100vh;
+}
+
+.logo {
+  color: #fff;
+  font-size: 50px;
+}
+
+header {
+  padding-top: 35px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hero_content {
+  padding-top: 200px;
+}
+
+.header_btn {
+  background-color: #c9453b;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 14px 28px;
+}
+
+@media screen and (max-width: 830px) {
+  nav ul {
+    display: none;
+  }
+
+  .hero_content h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .logo {
+    font-size: 42px;
+  }
+
+  .header_btn {
+    padding: 10px 20px;
+  }
+}

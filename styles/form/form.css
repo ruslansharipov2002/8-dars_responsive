@@ -1,0 +1,72 @@
+form {
+  padding-top: 142px;
+  padding-bottom: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 121px;
+}
+
+.global_btn3 {
+  background-color: #c9453b;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.instagram {
+  display: flex;
+}
+
+.facebook {
+  gap: 15px;
+}
+
+.about_link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subscribe {
+  padding-bottom: 42px;
+}
+
+.instagram {
+  gap: 30px;
+}
+
+input {
+  max-width: 195px;
+  height: 44px;
+  top: 3741px;
+  left: 1010px;
+  border-radius: 5px;
+  border: 1px;
+  padding: 10px;
+  padding-right: 35px;
+}
+
+div {
+  gap: 15px;
+}
+
+@media screen and (max-width: 910px) {
+  .form {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form {
+    flex-direction: column;
+  }
+  .facebook {
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=form.css.map */

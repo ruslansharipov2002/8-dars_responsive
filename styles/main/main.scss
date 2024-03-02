@@ -1,0 +1,186 @@
+.content {
+  gap: 30px;
+  .h1_there {
+    font-size: 65px;
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  .text_start {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 40px;
+  }
+}
+.div_location{
+    padding-top: 140px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .popular{
+        padding-bottom: 20px;
+        font-size: 43px;
+    }
+    .every_p{
+        padding-bottom: 50px;
+        font-size: 18px;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        .img_turkey{
+            padding-bottom: 35px;
+            max-width: 360px;
+            height: 331px;
+        }
+        .h3_turkey{
+            margin-bottom: 10px;
+        }
+    }
+    .special{
+        padding-top: 140px;
+    }
+    .offerc{
+        padding-bottom: 20px;
+    }
+    .comes{
+        padding-bottom: 60px;
+    }
+    .dizin{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 52px;
+    }
+    .card2{
+        flex-direction: column;
+
+    }
+    .person{
+        padding-bottom: 20px;
+        width: 262px;
+        height: 173px;
+    }
+    .night_h4{
+        padding-bottom: 8px;
+    }
+    .liberty{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .person_icon{
+        padding-right: 50px;
+    }
+    .person_icon2{
+        padding-left: 50px;
+    }
+    .iconka{
+        padding-bottom: 145px;
+    }
+    .from_blog{
+        font-size: 43px;
+        padding-bottom: 18px;
+        color: #000;
+    }
+    .welcome{
+        font-size: 18px;
+        padding-bottom: 56px;
+    }
+    .canada{
+        display: flex;
+        gap: 32px;
+    }
+    .canada_image{
+        padding-bottom: 35px;
+        max-width: 100%;
+    }
+    .Community{
+        gap: 30px;        
+    }
+    .japan_image{
+        width: 263px;
+        height: 201px;
+    }
+    .h4_park{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .welcome_to{
+        padding-top: 30px;
+        text-align: start;
+    }
+    .lies_prag{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .peace{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .easily{
+        display: flex;
+        text-align: center;
+        align-items: center ;
+        gap: 32px;
+        padding-bottom: 30px;
+
+    }
+}
+
+@media screen and (max-width:1474px) {
+    .dizin {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1161px) {
+    .title {
+        flex-wrap: wrap;
+    }
+    .canada {
+        flex-direction: column;
+    }
+    .welcome_to {
+        text-align: center;
+    }
+    .h4_park {
+        text-align: center;
+    }
+    .lies_prag {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+
+    .easily {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width:830px) {
+    .content .h1_there {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:634px) {
+    .easily {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .iconka {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(../header/header.css);
+@import url(../global/global.css);
+@import url(../header/nav/nav.css);
+@import url(../main/main.css);
+@import url(../form/form.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 20px 0px;
+  font-family: sans-serif;
+}
+
+.global_btn2, .global_btn1 {
+  background-color: #C9453B;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.global_btn1 {
+  padding: 14px 36px;
+}
+
+.global_btn2 {
+  padding: 18px 46px;
+}/*# sourceMappingURL=global.css.map */
